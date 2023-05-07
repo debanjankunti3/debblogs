@@ -1,0 +1,34 @@
+.contentleft h1{
+    font-size: 20px;
+}
+.navigation{
+    flex-direction: column;
+    width: 874px;
+}
+.contentright {
+    margin-top: 10px;
+    /* position: absolute; */
+}
+/* .contentright img {
+    height: 150px;
+    width: 150px;
+    border-radius: 180px;
+} */
+.home-article-img img {
+    /* width: 150px; */
+        /* width:40vw; */
+
+    margin: 12px;
+    border-radius: 30px;
+    height: 150px;
+}
+.footer{
+    width: 840px;
+}
+.contentright img{
+    height: 20vh;
+    width: 44vw;
+    position: absolute;
+    left: 150px;
+    border-radius: 30px;
+}

@@ -1,0 +1,46 @@
+.navigation {
+    flex-direction: column;
+    width: 600px;
+}
+.content{
+   
+    width: 583px;
+    
+}
+.contentleft h1 {
+    font-size: 16px;
+}
+
+.contentright{
+    display: none;
+}
+.home-articles{
+    width: 564px;
+}
+.home-article{
+    flex-direction: column;
+}
+.home-article-img{
+    text-align: center;
+}
+.home-article-img img {
+    /* margin: 12px; */
+    border-radius: 4px;
+    /* height: 150px; */
+    width: 70vw;
+   
+}
+.home-article-content{
+    text-align: center;
+}
+.year-box{
+    top: 0;
+    font-size: 11px;
+    display: flex;
+}
+.row{
+    flex-direction: column;
+}
+.footer {
+    width: 600px;
+}

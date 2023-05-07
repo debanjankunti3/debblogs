@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-bg-color: rgb(145, 145, 226);
+}
+
+.navigation {
+    height: 74px;
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bolder;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+span a {
+    text-decoration: none;
+    color: goldenrod;
+}
+
+span:hover {
+    color: rgb(22, 21, 19);
+}
+
+ul {
+    display: flex;
+    margin-left: 13px;
+}
+
+ul li {
+    list-style: none;
+    margin: 0px 12px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    color: gray
+}
+
+.right {
+    margin-right: 34px;
+}
+
+.content {
+    height: 100%;
+    background-color: #3498db;
+    display: flex;
+    position: relative;
+    margin-top: 32px;
+    padding: 9px;
+}
+
+.contentleft {
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+    /* margin: auto; */
+    justify-content: center;
+    padding: 30px;
+}
+
+.contentleft h1 {
+    margin-bottom: 20px;
+}
+
+.contentright {
+    /* width: 50%; */
+    margin-top: 10px;
+}
+
+.contentright img {
+    height: 271px;
+    width: 250px;
+    border-radius: 180px;
+}
+
+.home-articles {
+    margin-top: 12px;
+    padding: 18px;
+    position: relative;
+    /* height: 455px; */
+    /* display: flex;
+    flex-direction: column; */
+    background-color: rgb(86, 175, 31);
+}
+
+.year-box {
+    position: absolute;
+    /* background-color: red; */
+    right: 5px;
+    top: 3px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.year-box div {
+    padding: 5px;
+}
+
+.home-articles h2 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.home-article {
+    display: flex;
+    align-items: center;
+
+}
+
+.home-article-img img {
+    width: 148px;
+    margin: 12px;
+    border-radius: 4px;
+    height: 88px;
+}
+
+.home-article-content a {
+    text-decoration: none;
+    color: black
+}
+
+/* Footer section */
+.footer {
+    height: 50px;
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Utility classes in css */
+.max-width-1 {
+    max-width: 80vw;
+}
+.max-width {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 60vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn {
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 3px;
+    cursor: pointer;
+    color: #3498db;
+    border: 1px solid #3498db;
+}
+
+.btn:hover {
+    background-color: rgb(33, 144, 199);
+    color: black;
+    transition: all 0.5s ease-in;
+}
+
+#form {
+    padding: 8px;
+    border-radius: 10px;
+    width: 30vw;
+}
+
+.happy {
+    padding: 5px;
+}

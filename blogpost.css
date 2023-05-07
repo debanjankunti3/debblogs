@@ -1,0 +1,49 @@
+.post-img{
+    height: 404px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+.post-img img{
+   width: 100%;
+}
+.blog-content{
+    /* background-color: rebeccapurple; */
+}
+.blog-content h1{
+    text-align: center;
+    color:rgb(237, 173, 10);
+}
+.blog-content p{
+   font-size: 18px;
+}
+hr{
+    margin-top: 20px;
+}
+.row{
+    display: flex;
+}
+.post{
+    flex-direction: column;
+    text-align: center;
+}
+.blogpost-meta{
+    display: flex;
+    /* background-color: brown; */
+    justify-content: space-between;
+}
+.authorinfo{
+    margin: 12px 0;
+    font-weight: bold;
+}
+.authorinfo div{
+    padding: 4px 0px;
+}
+.social{
+    display: flex;
+    /* flex-direction: column; */
+    align-self: center;
+    cursor: pointer;
+}
+i{
+    padding: 5px;
+}
